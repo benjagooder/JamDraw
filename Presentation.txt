@@ -1,0 +1,32 @@
+•	Presentation:
+    o	About ourselves (each of us) Katelyn, Benja, Akash
+        •	Where we go to school
+        •	Majors
+        •	Interests
+    o	Found each other at the conference, meshed, and jammed
+    o	Demo
+    o	Our process
+        •	Why did we choose the Shure challenge (Benja)
+            	We love music
+            	Wanted to do something different
+        •	How did you come up with the idea for your project (Katelyn)
+            	Rapid prototyping
+            	Design thinking
+            	Discussed each of our strengths and weaknesses and ended up on JamDraw
+        •	Describe the process of creating the project and each person's role in that
+            	Katlyn
+                •	Computer vision
+            	Akash
+                •	Data cleaning, Spotify API
+            	Benja
+                •	Flask, Jinja
+        •	What worked well, what were the challenges (Akash)
+            	Went well:
+                •	Consistently checking up and reevaluating internal deadlines and current progress
+                •	Had fun during the whole thing
+            	Challenges:
+                •	API
+                •	Flask
+        •	If you had more time, what features would you have liked to add
+            	Uploading a picture
+            	Actually playing the song instead of just outputting the song and artist
