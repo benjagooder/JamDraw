@@ -12,7 +12,11 @@ app = Flask(__name__, template_folder='C:/Users/Katelyn/Desktop/DareMightyThings
 def index():
     return render_template('json.html')
 
-@app.route('/<songFile>')
+@app.route('/result/<title>')
+def myFavoriteSong(title):
+    return render_template('index.html', title=title)
+
+@app.route('/song/<songFile>')
 def jam(songFile):
     return app.send_static_file(songFile)
 
@@ -23,7 +27,7 @@ def json():
 
 # //background process happening without any refreshing
 @app.route('/background_process_test')
-def main():
+def draw():
     print("Starting")
     isRecording = True
 
@@ -264,7 +268,6 @@ def main():
             break
 
     cv.destroyAllWindows()
-
 
 if __name__ == '__main__':
     app.run()
